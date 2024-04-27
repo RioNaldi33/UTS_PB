@@ -2,19 +2,15 @@ package com.example.uts.ui;
 
 import android.os.Bundle;
 import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.example.uts.data.response.GithubSearchResponse;
 import com.example.uts.data.response.GithubUser;
 import com.example.uts.data.retrofit.ApiConfig;
 import com.example.uts.data.retrofit.ApiService;
 import com.example.uts_pb.R;
-
 import java.util.List;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

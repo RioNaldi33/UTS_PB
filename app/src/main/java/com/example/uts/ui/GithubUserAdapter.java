@@ -8,12 +8,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.example.uts.data.response.GithubUser;
-
 import com.example.uts_pb.R;
 import com.squareup.picasso.Picasso;
-
 import java.util.List;
 
 public class GithubUserAdapter extends RecyclerView.Adapter<GithubUserAdapter.ViewHolder> {

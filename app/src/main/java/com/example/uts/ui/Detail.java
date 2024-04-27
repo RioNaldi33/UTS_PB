@@ -1,20 +1,17 @@
 package com.example.uts.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.example.uts.data.response.GithubUser;
 import com.example.uts.data.retrofit.ApiConfig;
 import com.example.uts.data.retrofit.ApiService;
 import com.example.uts_pb.R;
 import com.squareup.picasso.Picasso;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

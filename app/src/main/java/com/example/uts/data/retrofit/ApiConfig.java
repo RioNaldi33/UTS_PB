@@ -1,7 +1,6 @@
 package com.example.uts.data.retrofit;
 
 import com.squareup.picasso.BuildConfig;
-
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;
